@@ -32,6 +32,7 @@ namespace Hafta_7
                 MessageBox.Show("Bekar");
         }
 
+
         private void hScrollBar1_Scroll(object sender, ScrollEventArgs e)
         {
             textBox1.Font = new Font("Times New Roman",hScrollBar1.Value);
